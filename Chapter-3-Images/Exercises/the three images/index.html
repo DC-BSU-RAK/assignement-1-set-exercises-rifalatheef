@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nature Landscapes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .image-container {
+      max-width: 600px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      filter: grayscale(30%) brightness(1.1) contrast(1.2);
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .license {
+      font-size: 14px;
+      color: #555;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Nature Landscapes Gallery</h1>
+  <div class="gallery">
+
+    <div class="image-container">
+      <img src="https://images.unsplash.com/photo-1742943892627-f7e4ddf91224?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Beautiful city" title="" width="600" height="400">
+      <div class="license">
+    <B>Photo by bryan brittos</B>
+    </div>
+
+    <div class="image-container">
+      <img src="https://images.unsplash.com/photo-1741738668550-3efca0fca23a?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="peaceful ambience" title="" width="600" height="400">
+      <div class="license">
+       <B>Photo by Cat Guffin</B> 
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="https://images.unsplash.com/photo-1739911013984-8b3bf696a182?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzM3x8fGVufDB8fHx8fA%3D%3D" alt="Snow boarding" title="" width="600" height="400">
+      <div class="license">
+        <B>Photo by logan weaver</B>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

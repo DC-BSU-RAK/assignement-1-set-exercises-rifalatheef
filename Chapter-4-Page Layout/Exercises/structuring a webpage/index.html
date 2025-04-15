@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digi Fest 2022</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DIGI FEST 2022</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">What's On</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Tickets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Welcome</h2>
+            <p>Digi Fest is a celebration of digital and technology in the city of Cardiff. This year, we are celebrating ‘collaboration’, so come and find out about the latest collaborations that are happening in this historic and innovative city. They promise an educational and inspirational packed programme for all.</p>
+            <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d" alt="Code Image">
+        </section>
+
+        <aside class="line-up">
+            <h2>Line Up</h2>
+            <ul>
+                <li>Introduction to HTML and CSS</li>
+                <li>Links and images</li>
+                <li>Page Layout</li>
+            </ul>
+            <div class="images">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Chip Image">
+                <img src="https://images.unsplash.com/photo-1581091012184-7c8d63b40de6" alt="Circuit Image">
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2022 DigiFest Ltd.</p>
+    </footer>
+</body>
+</html>
+CSS (styles.css)
+css
+Copy
+Edit
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #240046;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+}
+
+.welcome {
+    flex: 2;
+}
+
+.welcome h2 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.welcome img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.line-up {
+    flex: 1;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.line-up h2 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.line-up ul {
+    list-style: none;
+    padding: 0;
+}
+
+.line-up li {
+    margin: 10px 0;
+}
+
+.line-up .images {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.line-up .images img {
+    width: 48%;
+    height: auto;
+}
+
+footer {
+    background-color: #8000ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
