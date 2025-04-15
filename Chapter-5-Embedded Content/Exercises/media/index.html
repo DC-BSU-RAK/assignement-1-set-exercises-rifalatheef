@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .media-section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      margin-bottom: 10px;
+      color: #444;
+    }
+    iframe, video, audio {
+      display: block;
+      max-width: 100%;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="media-section">
+    <h2>Audio (4m 11s)</h2>
+    <audio controls>
+      <source src="path/to/audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="media-section">
+    <h2>Video (5m 38s) with Captions</h2>
+    <video width="720" height="405" controls>
+      <source src="path/to/video.mp4" type="video/mp4">
+      <track src="path/to/subtitles.vtt" kind="subtitles" srclang="en" label="English" default>
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="media-section">
+    <h2>Embedded Media via iframe (3m 10s)</h2>
+    <iframe width="720" height="405"
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            title="Embedded Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>
